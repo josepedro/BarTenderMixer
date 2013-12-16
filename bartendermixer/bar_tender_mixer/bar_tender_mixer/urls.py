@@ -16,5 +16,11 @@ urlpatterns = patterns('',
     # url(r'^admin/', include(admin.site.urls)),
     url(r'^bar_tender_mixer/$', 'app.controller.bar_controller.index'),
     url(r'^bar_tender_mixer/1$', 'app.controller.bar_controller.opcao1'),
-    url(r'^bar_tender_mixer/2$', 'app.controller.bar_controller.opcao2')
+    url(r'^bar_tender_mixer/2$', 'app.controller.bar_controller.opcao2'),
+    url(r'^bar_tender_mixer/3$', 'app.controller.bar_controller.opcao3'),
+    url(r'^bar_tender_mixer/4$', 'app.controller.bar_controller.opcao4'),
+    url(r'^bar_tender_mixer/5$', 'app.controller.bar_controller.opcao5'),
+    url(r'^bar_tender_mixer/6$', 'app.controller.bar_controller.opcao6'),
+    url(r'^bar_tender_mixer/7$', 'app.controller.bar_controller.opcao7'),
+    url(r'^bar_tender_mixer/8$', 'app.controller.bar_controller.opcao8'),	
 )

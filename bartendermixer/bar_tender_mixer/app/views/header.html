@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en" > <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
 
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>Bar Tender Mixer</title>
+  <title>Bartender Mixer</title>
 
   
   <link rel="stylesheet" href="{{ STATIC_URL }}css/foundation.css">
@@ -56,14 +56,33 @@
     <nav class="top-bar fixed">
           <ul class="title-area">
               <li class="name">
-                   <h1><a href="{% url 'app.controller.bar_controller.index' %}">Bar Tender Mixer</a></h1>
+                   <h1><a href="{% url 'app.controller.bar_controller.index' %}">Bartender Mixer</a></h1>
               </li>
               <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a>
               </li>
           </ul>
           <section class="top-bar-section">
-            
-                  
+              <ul class="left">
+                  <li class="divider"></li>
+                  <li class="has-dropdown"><a href="#">Drinks</a>
+                      <ul class="dropdown">
+                          <li><label>Selecione a opção de bebida</label></li>
+                          <li><a href="{% url 'app.controller.bar_controller.opcao1' %}">Migué Drink</a></li>
+                          <li class="divider"></li>
+                          <li><a href="{% url 'app.controller.bar_controller.opcao2' %}">Let It Beer</a></li>
+                          <li class="divider"></li>
+                          <li><a href="{% url 'app.controller.bar_controller.opcao3' %}">DrinkFornication</a></li>
+                          <li class="divider"></li>
+                          <li><a href="{% url 'app.controller.bar_controller.opcao4' %}">Smoke on the Alcohol</a></li>
+                          <li class="divider"></li>
+                          <li><a href="{% url 'app.controller.bar_controller.opcao5' %}">Black Drunk Dog</a></li>
+                          <li class="divider"></li>
+                          <li><a href="{% url 'app.controller.bar_controller.opcao6' %}">Purple Haze</a></li>
+                          <li class="divider"></li>
+                          <li><a href="{% url 'app.controller.bar_controller.opcao7' %}">Another Drink on the Wall</a></li>
+                          <li class="divider"></li>
+                          <li><a href="{% url 'app.controller.bar_controller.opcao8' %}">I Want To Drink Free</a></li>
+                      </ul>
                   </li>
           </section>
       </nav>

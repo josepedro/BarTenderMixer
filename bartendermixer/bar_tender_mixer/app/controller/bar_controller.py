@@ -29,4 +29,33 @@ def opcao2(request):
 	ser.write('r')
 	return render_to_response("index.html", context_instance=RequestContext(request))
 
+def opcao3(request):
+	ser = serial.Serial('/dev/ttyACM1',9600,timeout=1)
+	ser.write('r')
+	return render_to_response("index.html", context_instance=RequestContext(request))
+
+def opcao4(request):
+	ser = serial.Serial('/dev/ttyACM1',9600,timeout=1)
+	ser.write('r')
+	return render_to_response("index.html", context_instance=RequestContext(request))
+
+def opcao5(request):
+	ser = serial.Serial('/dev/ttyACM1',9600,timeout=1)
+	ser.write('r')
+	return render_to_response("index.html", context_instance=RequestContext(request))
+
+def opcao6(request):
+	ser = serial.Serial('/dev/ttyACM1',9600,timeout=1)
+	ser.write('r')
+	return render_to_response("index.html", context_instance=RequestContext(request))
+
+def opcao7(request):
+	ser = serial.Serial('/dev/ttyACM1',9600,timeout=1)
+	ser.write('r')
+	return render_to_response("index.html", context_instance=RequestContext(request))
+
+def opcao8(request):
+	ser = serial.Serial('/dev/ttyACM1',9600,timeout=1)
+	ser.write('r')
+	return render_to_response("index.html", context_instance=RequestContext(request))
 

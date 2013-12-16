@@ -1,9 +1,20 @@
 {% include 'header.html' %}
     
-       <a href="{% url 'app.controller.bar_controller.consulta_por_regiao' %}"> <button type="button" class="btn" >Let It Beer</button></a>
-        <a href="{% url 'app.controller.bar_controller.consulta_municipios_na_regiao' %}"> <button type="button" class="btn" >Migué Drink</button></a>
+    <div class="row">
+        <div class="large-12 columns">
+            <h2><center><img src="{{ STATIC_URL }}img/bar2.png"/> Bartender Mixer <img src="{{ STATIC_URL }}img/bar2.png"/></center></h2> 
+            <hr />
+       </div>
+    </div>
 
-        
+    <div class="row">
+        <div class="large-12 columns">
+            <p><center><strong> Bartender Mixer - mistura automatizada de bebidas.</strong></center></p>
+
+            <p>Projeto final da disciplina de microprocessadores e microcontroladores do curso de <a href="http://fga.unb.br">Engenharia Eletrônica, Universidade de Brasília</a>. </p>
+        </div>
+
+        <p><center><em><strong>* Selecione uma opção de bebida no menu superior.</strong></em></center></p>
     </div>
 
 {% include 'footer.html' %}
