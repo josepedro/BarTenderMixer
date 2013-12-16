@@ -6,7 +6,6 @@ sys.path.append(parent_dir)
 
 import sys 
 import re
-import MySQLdb
 from django.utils.datastructures import MultiValueDictKeyError
 from django.template import RequestContext
 from django.http import HttpResponse
